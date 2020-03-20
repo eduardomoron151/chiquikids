@@ -1,0 +1,63 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar.navbar-expand.navbar-dark.bg-info{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.logoChiquiKids{
+  width: 250px;
+  max-height: 120px;
+}
+
+.nav-link.text{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.nav-link.text:hover{
+  background-color: #5BC0DE;
+  color: white;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 800px !important;
+}
+.texto-h2-contactar{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.quienes-somos{
+  color: rgba(55, 96, 146);
+}
+
+.title-recursos{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: orange;
+}
+
+.span-title{
+  color: rgba(142, 180, 227);
+  font-weight: bold;
+}
+.span-importan{
+  color:orange;
+  font-weight: bold;
+
+}
+
+.title-eslogan{
+  font: oblique bold 150% cursive;
+}
+
+.page-footer{
+  background-image: url('http://localhost/colegio/assets/Representar_imitar.JPG');
+}
+
+
+
+
