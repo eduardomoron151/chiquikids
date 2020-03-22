@@ -23,4 +23,12 @@ class Cinicio extends CI_Controller {
 		$this->load->view('Vinicio');
 	}
 
+	public function contacto(){
+		$this->load->view('Vcontacto');
+	}
+
+	public function galeria(){
+		$this->load->view('Vgaleria');
+	}
+
 }

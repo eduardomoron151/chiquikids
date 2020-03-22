@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>ChiquiKids</title>
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="public\bootstrap\css\bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>public\bootstrap\css\bootstrap.min.css">
   <!-- FontAwesome -->
-  <link rel="stylesheet" href="public\fontawesome\css\all.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>public\fontawesome\css\all.min.css">
   <!-- Fonts -->
-  <link rel="stylesheet" href="public\fonts\Bellota\bellota.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>public\fonts\Bellota\bellota.css">
   <!-- css main -->
-  <link rel="stylesheet" href="public\css\main2.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>public\css\main2.css">
   <!-- Script scrollreveal -->
-  <script src="public\scrollreveal\scrollreveal.min.js"></script>
+  <script src="<?php echo base_url();?>public\scrollreveal\scrollreveal.min.js"></script>
 </head>
 <body>
 
@@ -45,7 +45,7 @@
   <nav class="navbar navbar-expand-lg bg-white py-0 sticky-top">
     <div class="container">
       <a class="navbar-brand" href="/chiquikids">
-        <img src="public\img\logoChiquiKids.png" class="d-inline-block align-center" style="width: 250px;" alt="logoChiquiKids">
+        <img src="<?php echo base_url();?>public\img\logoChiquiKids.png" class="d-inline-block align-center" style="width: 250px;" alt="logoChiquiKids">
       </a>
       <button class="navbar-light navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-light navbar-toggler-icon"></span>
@@ -62,10 +62,10 @@
             <a class="nav-link text" href="#nivelesGrupos">Niveles y grupos</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link text" href="">Galería de fotos</a>
+            <a class="nav-link text" href="<?php echo site_url("/Cinicio/galeria");?>">Galería de fotos</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link text" href="">Contacto</a>
+            <a class="nav-link text" href="<?php echo site_url("/Cinicio/contacto");?>">Contacto</a>
           </li>
         </ul>
       </div>
@@ -82,19 +82,19 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="public\img\slider1_1200_400.jpg" class="d-block w-100" alt="slider1">
+          <img src="<?php echo base_url();?>public\img\slider1_1200_400.jpg" class="d-block w-100" alt="slider1">
           <div class="carousel-caption d-none d-md-block">
             <h2 class="carousel-title">Lo que se aprende jugando nunca se olvida</h2>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="public\img\slider2_1200_400.jpg" class="d-block w-100" alt="slider2">
+          <img src="<?php echo base_url();?>public\img\slider2_1200_400.jpg" class="d-block w-100" alt="slider2">
           <div class="carousel-caption d-none d-md-block">
             <h2 class="carousel-title">Después de tí, en las mejores manos</h2>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="public\img\slider3_1200_400.jpg" class="d-block w-100" alt="slider3">
+          <img src="<?php echo base_url();?>public\img\slider3_1200_400.jpg" class="d-block w-100" alt="slider3">
           <div class="carousel-caption d-none d-md-block">
             <h2 class="carousel-title">Ven a Chiqui-Kids, nuestra casita de colores</h2>
           </div>
@@ -116,7 +116,7 @@
     <div class="text-center p-2 mb-3" style="background-color: rgba(55, 96, 146);">
       <div class="container">
         <h2 class="contact-title d-inline-block px-3">¿Quieres conocernos?</h2>
-        <a href="" class="btn btn-info btn-lg">Contactar</a>
+        <a href="<?php echo site_url("/Cinicio/contacto");?>" class="btn btn-info btn-lg">Contactar</a>
       </div>
     </div>
   </section>
@@ -143,7 +143,7 @@
         </div>
         <div class="col-md-4 my-auto d-none d-sm-block">
           <div class="row justify-content-center">
-            <img src="public\img\image_aboutUs.JPG" class="img-fluid" alt="logo">
+            <img src="<?php echo base_url();?>public\img\image_aboutUs.JPG" class="img-fluid" alt="logo">
           </div>
         </div>
         <div class="col-md-4">
@@ -230,16 +230,16 @@
               <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                      <img src="public\img\amar_construir.JPG" class="d-block w-100" alt="...">
+                      <img src="<?php echo base_url();?>public\img\amar_construir.JPG" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="public\img\experimentar_descubrir.JPG" class="d-block w-100" alt="...">
+                    <img src="<?php echo base_url();?>public\img\experimentar_descubrir.JPG" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="public\img\Expresar_crear.JPG" class="d-block w-100" alt="...">
+                    <img src="<?php echo base_url();?>public\img\Expresar_crear.JPG" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="public\img\Representar_imitar.JPG" class="d-block w-100" alt="...">
+                    <img src="<?php echo base_url();?>public\img\Representar_imitar.JPG" class="d-block w-100" alt="...">
                   </div>
                 </div>
               </div>
@@ -253,7 +253,7 @@
         <div class="col my-auto">
           <div class="jumbotron jumbotron-fluid py-0">
             <div class="container">
-              <img src="public\img\logoChiquiKids.png" class="img-fluid w-100" alt="LogoJumbotron" style="height: 160px;">
+              <img src="<?php echo base_url();?>public\img\logoChiquiKids.png" class="img-fluid w-100" alt="LogoJumbotron" style="height: 160px;">
               <h1 class="display-6 text-center jumbotron-title">PREESCOLAR CHIQUI-KIDS</h1>
               <p class="h2 text-center jumbotron-parrafo">Excelencia Educativa</p>
             </div>
@@ -280,7 +280,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <img src="public\img\ProyectoEducativo2.jpg" class="img-fluid card-img" style="height: auto;" alt="ProyectoEducativo">
+              <img src="<?php echo base_url();?>public\img\ProyectoEducativo2.jpg" class="img-fluid card-img" style="height: auto;" alt="ProyectoEducativo">
             </div>
           </div>
         </div>
@@ -289,7 +289,7 @@
         <div class="card shadow mb-3 w-100 bg-success text-white">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="public\img\MetodologiaActiva2.jpg" class="img-fluid card-img" style="height: auto;" alt="MetodologiaActiva">
+              <img src="<?php echo base_url();?>public\img\MetodologiaActiva2.jpg" class="img-fluid card-img" style="height: auto;" alt="MetodologiaActiva">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -310,7 +310,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <img src="public\img\DisenoBilingue2.jpg" class="img-fluid card-img" style="height: auto;" alt="MetodologiaActiva">
+              <img src="<?php echo base_url();?>public\img\DisenoBilingue2.jpg" class="img-fluid card-img" style="height: auto;" alt="MetodologiaActiva">
             </div>
           </div>
         </div>
@@ -319,7 +319,7 @@
         <div class="card shadow mb-3 w-100 bg-warning text-white">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="public\img\FamiliasParticipativas2.jpg" class="img-fluid card-img" style="height: auto;" alt="MetodologiaActiva">
+              <img src="<?php echo base_url();?>public\img\FamiliasParticipativas2.jpg" class="img-fluid card-img" style="height: auto;" alt="MetodologiaActiva">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -337,11 +337,11 @@
               <div class="card-body">
                 <h5 class="card-title display-4 projecEducation-subTitle">Proyecto vivo</h5>
                 <p class="card-text text-justify">Nutriéndose con las experiencias propias de cada niño.</p>
-                <a href="" class="btn btn-primary btn-sm">Conocer más</a>
+                <a href="<?php echo site_url("/Cinicio/contacto");?>" class="btn btn-primary btn-sm">Conocer más</a>
               </div>
             </div>
             <div class="col-md-4">
-              <img src="public\img\ExperienciasPropias.jpeg" class="img-fluid card-img" style="height: auto;" alt="MetodologiaActiva">
+              <img src="<?php echo base_url();?>public\img\ExperienciasPropias.jpeg" class="img-fluid card-img" style="height: auto;" alt="MetodologiaActiva">
             </div>
           </div>
         </div>
@@ -361,7 +361,7 @@
         <div class="contenedor-img">
           <a href="">
             <div class="inner">
-              <img src="public\img\2anos_logo_1_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="2anos_logo">
+              <img src="<?php echo base_url();?>public\img\2anos_logo_1_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="2anos_logo">
             </div>
             <div class="middle">
               <h3 class="img-title">Maternal</h3>
@@ -374,7 +374,7 @@
         <div class="contenedor-img">
           <a href="">
             <div class="inner">
-              <img src="public\img\3anos_2_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="3anos_logo">
+              <img src="<?php echo base_url();?>public\img\3anos_2_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="3anos_logo">
             </div>
             <div class="middle">
               <h3 class="img-title">I Grupo</h3>
@@ -387,7 +387,7 @@
         <div class="contenedor-img">
           <a href="#">
             <div class="inner">
-              <img src="public\img\4anos_logo_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="4anos_logo">
+              <img src="<?php echo base_url();?>public\img\4anos_logo_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="4anos_logo">
             </div>
             <div class="middle">
               <h3 class="img-title">II Grupo</h3>
@@ -400,7 +400,7 @@
         <div class="contenedor-img">
           <a href="#">
             <div class="inner">
-              <img src="public\img\5anos_logo_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="5anos_logo">
+              <img src="<?php echo base_url();?>public\img\5anos_logo_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="5anos_logo">
             </div>
             <div class="middle">
               <h3 class="img-title">III Grupo</h3>
@@ -415,7 +415,7 @@
   <!-- Footer -->
   <footer class="footer pt-5">
     <div class="card border border-0">
-      <img src="public\img\footerimg5.jpg" class="img-fluid footer-img w-100" style="height: 300px;" alt="">
+      <img src="<?php echo base_url();?>public\img\footerimg5.jpg" class="img-fluid footer-img w-100" style="height: 300px;" alt="">
       <div class="card-img-overlay text-center text-justify text-white">
         <div class="container">
           <div class="row">
@@ -431,7 +431,7 @@
               <h3 class="card-title footer-title">Mantente en contacto</h3>
               <p class="card-text footer-parrafo">Puedes ponerte en contacto con nosotros para cualquier consulta a traves de el numero de teléfono <span>0424-2996070</span></p>
               <h5 class="card-title footer-title">Ven a CHIQUI-KIDS, nuestra casita de colores</h5>
-              <a href="#" class="btn btn-info btn-lg">Contacto</a>
+              <a href="<?php echo site_url("/Cinicio/contacto");?>" class="btn btn-info btn-lg">Contacto</a>
             </div>
           </div>
         </div>
@@ -440,10 +440,10 @@
   </footer>
 
   <!-- Scripts Bootstrap -->
-  <script src="public\bootstrap\js\jquery-3.4.1.min.js"></script>
-  <script src="public\bootstrap\js\popper.min.js"></script>
-  <script src="public\bootstrap\js\bootstrap.min.js"></script>
+  <script src="<?php echo base_url();?>public\bootstrap\js\jquery-3.4.1.min.js"></script>
+  <script src="<?php echo base_url();?>public\bootstrap\js\popper.min.js"></script>
+  <script src="<?php echo base_url();?>public\bootstrap\js\bootstrap.min.js"></script>
   <!-- Script main -->
-  <script src="public\js\main2.js"></script>
+  <script src="<?php echo base_url();?>public\js\main2.js"></script>
 </body>
 </html>
