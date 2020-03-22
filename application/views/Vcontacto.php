@@ -11,7 +11,7 @@
   <!-- Fonts -->
   <link rel="stylesheet" href="<?php echo base_url();?>public\fonts\Bellota\bellota.css">
   <!-- css main -->
-  <link rel="stylesheet" href="<?php echo base_url();?>public\css\main2.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>public\css\main.css">
   <!-- Script scrollreveal -->
   <script src="<?php echo base_url();?>public\scrollreveal\scrollreveal.min.js"></script>
 </head>
@@ -148,6 +148,6 @@
   <script src="<?php echo base_url();?>public\bootstrap\js\popper.min.js"></script>
   <script src="<?php echo base_url();?>public\bootstrap\js\bootstrap.min.js"></script>
   <!-- Script main -->
-  <script src="<?php echo base_url();?>public\js\main2.js"></script>
+  <script src="<?php echo base_url();?>public\js\main.js"></script>
 </body>
 </html>

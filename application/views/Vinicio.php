@@ -11,7 +11,7 @@
   <!-- Fonts -->
   <link rel="stylesheet" href="<?php echo base_url();?>public\fonts\Bellota\bellota.css">
   <!-- css main -->
-  <link rel="stylesheet" href="<?php echo base_url();?>public\css\main2.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>public\css\main.css">
   <!-- Script scrollreveal -->
   <script src="<?php echo base_url();?>public\scrollreveal\scrollreveal.min.js"></script>
 </head>
@@ -359,7 +359,7 @@
     <div class="row py-3">
       <div class="col-sm-3 px-0">
         <div class="contenedor-img">
-          <a href="">
+          <a href="<?php echo site_url("/Cinicio/galeria");?>">
             <div class="inner">
               <img src="<?php echo base_url();?>public\img\2anos_logo_1_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="2anos_logo">
             </div>
@@ -372,7 +372,7 @@
       </div>
       <div class="col-sm-3 px-0">
         <div class="contenedor-img">
-          <a href="">
+          <a href="<?php echo site_url("/Cinicio/galeria");?>">
             <div class="inner">
               <img src="<?php echo base_url();?>public\img\3anos_2_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="3anos_logo">
             </div>
@@ -385,7 +385,7 @@
       </div>
       <div class="col-sm-3 px-0">
         <div class="contenedor-img">
-          <a href="#">
+          <a href="<?php echo site_url("/Cinicio/galeria");?>">
             <div class="inner">
               <img src="<?php echo base_url();?>public\img\4anos_logo_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="4anos_logo">
             </div>
@@ -398,7 +398,7 @@
       </div>
       <div class="col-sm-3 px-0">
         <div class="contenedor-img">
-          <a href="#">
+          <a href="<?php echo site_url("/Cinicio/galeria");?>">
             <div class="inner">
               <img src="<?php echo base_url();?>public\img\5anos_logo_final.png" class="img-fluid img-nivel w-100" style="max-width: 100%; height:auto;" alt="5anos_logo">
             </div>
@@ -444,6 +444,6 @@
   <script src="<?php echo base_url();?>public\bootstrap\js\popper.min.js"></script>
   <script src="<?php echo base_url();?>public\bootstrap\js\bootstrap.min.js"></script>
   <!-- Script main -->
-  <script src="<?php echo base_url();?>public\js\main2.js"></script>
+  <script src="<?php echo base_url();?>public\js\main.js"></script>
 </body>
 </html>

@@ -10,8 +10,10 @@
   <link rel="stylesheet" href="<?php echo base_url();?>public\fontawesome\css\all.min.css">
   <!-- Fonts -->
   <link rel="stylesheet" href="<?php echo base_url();?>public\fonts\Bellota\bellota.css">
+  <!-- Baguetebox -->
+  <link rel="stylesheet" href="<?php echo base_url();?>public\baguettebox\css\baguetteBox.min.css">
   <!-- css main -->
-  <link rel="stylesheet" href="<?php echo base_url();?>public\css\main2.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>public\css\main.css">
   <!-- Script scrollreveal -->
   <script src="<?php echo base_url();?>public\scrollreveal\scrollreveal.min.js"></script>
 </head>
@@ -72,18 +74,207 @@
     </div>
   </nav>
 
-  <section id="galery">
+  <section id="gallery">
     <div class="container">
-      <div class="row justify-content-center pt-5" id="">
-        <div class="col-mt-auto">
-          <h2 class="">Nuestra galeria de fotos</h2>
+      <div class="container gallery-container">
+        <div class="row justify-content-center">
+          <h1 class="display-4 text-center py-3 gallery-title border-bottom border-info">Nuestra galeria de fotos</h1>
+        </div>
+        <div class="tz-gallery">
+          <div class="row mb-3">
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\2anos_logo_1_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\2anos_logo_1_final.png" alt="2 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Los mas pequeños</h5>
+                <p class="text-muted text-center">2 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\3anos_2_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\3anos_2_final.png" alt="3 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title"> Aplaudiendo y disfrutando</h5>
+                <p class="text-muted text-center">3 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\4anos_logo_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\4anos_logo_final.png" alt="4 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Aprendiendo</h5>
+                <p class="text-muted text-center">4 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\5anos_logo_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\5anos_logo_final.png" alt="4 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Elaborando</h5>
+                <p class="text-muted text-center">5 años</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\2anos_logo_1_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\2anos_logo_1_final.png" alt="2 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Los mas pequeños</h5>
+                <p class="text-muted text-center">2 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\3anos_2_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\3anos_2_final.png" alt="3 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title"> Aplaudiendo y disfrutando</h5>
+                <p class="text-muted text-center">3 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\4anos_logo_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\4anos_logo_final.png" alt="4 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Aprendiendo</h5>
+                <p class="text-muted text-center">4 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\5anos_logo_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\5anos_logo_final.png" alt="4 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Elaborando</h5>
+                <p class="text-muted text-center">5 años</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\2anos_logo_1_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\2anos_logo_1_final.png" alt="2 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Los mas pequeños</h5>
+                <p class="text-muted text-center">2 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\3anos_2_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\3anos_2_final.png" alt="3 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title"> Aplaudiendo y disfrutando</h5>
+                <p class="text-muted text-center">3 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\4anos_logo_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\4anos_logo_final.png" alt="4 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Aprendiendo</h5>
+                <p class="text-muted text-center">4 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\5anos_logo_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\5anos_logo_final.png" alt="4 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Elaborando</h5>
+                <p class="text-muted text-center">5 años</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\2anos_logo_1_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\2anos_logo_1_final.png" alt="2 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Los mas pequeños</h5>
+                <p class="text-muted text-center">2 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\3anos_2_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\3anos_2_final.png" alt="3 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title"> Aplaudiendo y disfrutando</h5>
+                <p class="text-muted text-center">3 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\4anos_logo_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\4anos_logo_final.png" alt="4 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Aprendiendo</h5>
+                <p class="text-muted text-center">4 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\5anos_logo_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\5anos_logo_final.png" alt="4 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Elaborando</h5>
+                <p class="text-muted text-center">5 años</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\2anos_logo_1_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\2anos_logo_1_final.png" alt="2 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Los mas pequeños</h5>
+                <p class="text-muted text-center">2 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\3anos_2_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\3anos_2_final.png" alt="3 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title"> Aplaudiendo y disfrutando</h5>
+                <p class="text-muted text-center">3 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\4anos_logo_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\4anos_logo_final.png" alt="4 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Aprendiendo</h5>
+                <p class="text-muted text-center">4 años</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0">
+                <a class="lighbox" href="<?php echo base_url();?>public\img\5anos_logo_final.png">
+                  <img class="card-img-top" src="<?php echo base_url();?>public\img\5anos_logo_final.png" alt="4 anos">
+                </a>
+                <h5 class="card-title text-center pt-2 gallery-foto-title">Elaborando</h5>
+                <p class="text-muted text-center">5 años</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-
-  
-
 
   <!-- Footer -->
   <footer class="footer pt-5">
@@ -116,7 +307,13 @@
   <script src="<?php echo base_url();?>public\bootstrap\js\jquery-3.4.1.min.js"></script>
   <script src="<?php echo base_url();?>public\bootstrap\js\popper.min.js"></script>
   <script src="<?php echo base_url();?>public\bootstrap\js\bootstrap.min.js"></script>
+  <!-- Baguetebox -->
+  <script src="<?php echo base_url();?>public\baguettebox\js\baguetteBox.min.js"></script>
   <!-- Script main -->
-  <script src="<?php echo base_url();?>public\js\main2.js"></script>
+  <script src="<?php echo base_url();?>public\js\main.js"></script>
+  <!-- script a ejecutar -->
+  <script>
+    baguetteBox.run('.tz-gallery');
+  </script>
 </body>
 </html>

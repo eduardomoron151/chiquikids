@@ -1,41 +1,53 @@
 
+/*Scroll suavizador*/
 html {
   scroll-behavior: smooth;
 }
 
+/*Barra de navegacion*/
 .navbar.navbar-expand.navbar-dark.bg-info{
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.logoChiquiKids{
-  width: 250px;
-  max-height: 120px;
-}
+.brand-title{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: black;
 
+}
 .nav-link.text{
   font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: black;
 }
 
 .nav-link.text:hover{
   background-color: #5BC0DE;
   color: white;
+  border-radius: 5px;
 }
 
+/*Carousel de fotos*/
 .carousel-inner{
   width:100%;
   max-height: 800px !important;
 }
-.texto-h2-contactar{
+
+.carousel-title{
+  font-family: 'Bellota', cursive;
+}
+
+/*Barra de contactame */
+.contact-title{
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.quienes-somos{
+/*Quienes somos */
+.aboutUs-title{
+  font-family: 'Bellota', cursive;
   color: rgba(55, 96, 146);
 }
 
-.title-recursos{
+.aboutUs-subTitle{
   font-family: "Comic Sans MS", cursive, sans-serif;
   color: orange;
 }
@@ -47,17 +59,130 @@ html {
 .span-importan{
   color:orange;
   font-weight: bold;
+}
+
+.eslogan-title{
+  font-family: 'Bellota', cursive;
+}
+
+/*Jumbotron*/
+.jumbotron-title{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: rgba(55, 96, 146);
+}
+
+.jumbotron-parrafo{
+  font-family: 'Bellota', cursive;
+  color: rgba(142, 180, 227);
+  font-weight: bold;
+}
+
+/*Nuestro proyecto educativo*/
+.projecEducation-title{
+  font-family: 'Bellota', cursive;
+  color: rgba(55, 96, 146);
+}
+
+.projecEducation-subTitle{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 30px !important;
+}
+
+/*Niveles y grupos*/
+.nivelOrGroups-title{
+  font-family: 'Bellota', cursive;
+  color: rgba(55, 96, 146);
+}
+
+.middle{
+  transition: 1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.inner{
+  overflow: hidden;
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+
+
+.contenedor-img:hover .img-nivel{
+  opacity: 0.3;
+  transform: scale(1.5);
 
 }
 
-.title-eslogan{
-  font: oblique bold 150% cursive;
+.contenedor-img:hover .middle{
+  opacity: 1;
 }
 
-.page-footer{
-  background-image: url('http://localhost/colegio/assets/Representar_imitar.JPG');
+.img-title{
+  color: black;
+  font-family: 'Bellota', cursive;
+}
+
+.img-subTitle{
+  color: black;
+  font-family: 'Bellota', cursive;
+}
+
+/*Footer*/
+.footer-title{
+  font-family: 'Bellota', cursive;
+}
+
+.footer-parrafo{
+  font-size: 18x;
 }
 
 
+/*Pagina de contacto*/
+.contactanos-title{
+  font-family: 'Bellota', cursive;
+  color:orange;
 
+}
 
+.form-title{
+  font-family: cursive;
+  color:orange;
+
+}
+
+/*Pagina de galeria*/
+.gallery-title{
+  font-family: 'Bellota', cursive;
+  color:orange;
+
+}
+
+.gallery-foto-title{
+  font-family: 'Bellota', cursive;
+  color: rgba(55, 96, 146);
+}
+
+.tz-gallery {
+  padding: 40px;
+}
+
+.tz-gallery img {
+  border-radius: 4px;
+}
+
+@media(max-width: 768px) {
+  body {
+      padding: 0;
+  }
+
+  .container.gallery-container {
+      border-radius: 0;
+  }
+}
